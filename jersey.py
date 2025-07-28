@@ -128,7 +128,7 @@ if tab == "Place New Order":
                 image_bytes = jersey_image.read() if jersey_image is not None else None
                 
                 # Calculate total amount
-                total_amount = quantity * 20  # Example price per jersey
+                total_amount = quantity * 360  # Example price per jersey
                 
                 new_order = {
                     'Order Date': datetime.now(),
